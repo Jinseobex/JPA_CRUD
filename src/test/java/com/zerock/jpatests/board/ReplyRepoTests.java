@@ -75,10 +75,12 @@ public class ReplyRepoTests {
     @Test
     public void testMyBoard() {
         Board board = Board.builder()
-                .bno(2L)
+                .bno(3L)
                 .build();
-        Pageable pageable = PageRequest.of(0, 10);
-        replyRepository.getByBoard(board, pageable);
+        Pageable pageable = PageRequest.of(0, 10); // 없는 페이지 가져오면 안 뜸
+        replyRepository.getByBoard(board, pageable).getContent().forEach(reply -> {
+            log.info(reply);
+        });
     }
 
 }
