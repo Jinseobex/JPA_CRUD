@@ -1,6 +1,5 @@
 package com.zerock.jpatests.common.dto;
 
-import com.zerock.jpatests.todo.dto.ListRequestDTO;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

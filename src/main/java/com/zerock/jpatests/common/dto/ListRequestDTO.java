@@ -1,4 +1,4 @@
-package com.zerock.jpatests.todo.dto;
+package com.zerock.jpatests.common.dto;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.AllArgsConstructor;

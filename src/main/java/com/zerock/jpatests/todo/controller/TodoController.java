@@ -1,7 +1,7 @@
 package com.zerock.jpatests.todo.controller;
 
 import com.zerock.jpatests.common.dto.ListResponseDto;
-import com.zerock.jpatests.todo.dto.ListRequestDTO;
+import com.zerock.jpatests.common.dto.ListRequestDTO;
 import com.zerock.jpatests.todo.dto.TodoDTO;
 import com.zerock.jpatests.todo.service.TodoService;
 import lombok.RequiredArgsConstructor;
